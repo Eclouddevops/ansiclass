@@ -1,8 +1,10 @@
-    - name: Install required packages
-      package:
-        name:
-          - vim-enhanced
+---
+-
+  hosts: all
+  tasks: 
+    - name: Install vim
+      apt: 
+        name: vim-enhanced   
+        state: present
 
-        state: installed
-      become: yes
 ...
