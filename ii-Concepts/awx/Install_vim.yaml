@@ -4,7 +4,7 @@
   tasks: 
     - name: Install vim
       apt: 
-        name: vim-enhanced   
+        name: vim   
         state: present
 
 ...
