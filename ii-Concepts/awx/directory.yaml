@@ -7,5 +7,4 @@
       file:
 	path: /etc/
         state: directory
-	
-  ...
+ ...
