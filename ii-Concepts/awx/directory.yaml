@@ -1,0 +1,4 @@
+   - name: create directory
+     file : 
+        path: /etc/
+        state: directory
