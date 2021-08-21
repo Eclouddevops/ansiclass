@@ -5,6 +5,6 @@
   tasks: 
     - name: check Ip Address
       file:
-	path: /etc/
+        path: /etc/
         state: directory
  ...
